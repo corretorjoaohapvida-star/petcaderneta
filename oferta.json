@@ -1,7 +1,7 @@
 {
   "produto": "Coleção Caderneta de Vacina Pet",
   "basico": {
-    "preco": 17.9,
+    "preco": 14.9,
     "temas": 8,
     "selecao": [
       1,
@@ -23,30 +23,63 @@
       "Caneca",
       "Mascotes separados",
       "Mockups"
-    ]
+    ],
+    "inclui_premium": false
   },
   "completo": {
-    "preco": 37.9,
-    "temas": 48,
+    "preco": 29.9,
+    "temas": 100,
     "checkout": "https://pay.wiapy.com/6ae43bfb6e359ce02d36cd30",
     "conteudo": [
-      "48 temas completos",
-      "Capa e contracapa",
-      "Miolo de 52 páginas",
-      "Carteira",
-      "Caneca",
-      "Mascotes PNG",
-      "Mockups",
-      "SVGs de capa"
+      "100 modelos prontos: 51 de cães e 49 de gatos",
+      "48 temas base: capas, miolo de 52 páginas, carteira, caneca, mascote e mockup",
+      "52 modelos adicionais ilustrados com miolos de 24 páginas, bolso e abas",
+      "Capas sem nome e arquivo offline para inserir o nome",
+      "Roteiro de atendimento, mensagens prontas e controle de pedidos"
+    ],
+    "extras_originais_lina": {
+      "arquivo": "BRINDE-CADERNETA-PET-ORIGINAL-LINA.zip",
+      "arquivos": 121,
+      "adicional_aos_48_temas": true,
+      "conteudo": [
+        "Cadernetas pet originais rosa e azul",
+        "Carteiras",
+        "Miolos",
+        "Canecas",
+        "Papéis e elementos",
+        "Fontes e instruções originais"
+      ]
+    },
+    "nome": "Pack Completo Premium Pet",
+    "temas_base": 48,
+    "modelos_premium": 52,
+    "total_modelos": 100,
+    "modelos_com_foto": 0,
+    "oferta_principal": true,
+    "arquivo_entrega": "COLECAO-100-CADERNETAS-PET.zip",
+    "arte_pronta": true,
+    "personalizacao": "Somente o nome; ilustrações prontas",
+    "bonus": [
+      "Kits Premium",
+      "Peças combinando nos 48 temas base",
+      "Arquivo para colocar o nome",
+      "Roteiro de atendimento + mensagens + controle CSV"
     ]
   },
   "produto_digital": true,
   "completo_oferta": {
-    "preco": 27.9,
-    "temas": 48,
+    "preco": 19.9,
+    "temas": 100,
     "checkout": "https://pay.wiapy.com/pnzd5vR4Mg1",
-    "gatilho": "clique no Básico de R$17,90",
+    "gatilho": "clique no Básico de R$14,90",
     "total": true,
-    "diferenca_para_basico": 10
+    "diferenca_para_basico": 5,
+    "inclui_premium": true,
+    "total_modelos": 100
+  },
+  "personalizacao": {
+    "nome_do_pet": true,
+    "foto": false,
+    "forma": "Artes prontas; inserir apenas o nome"
   }
 }
