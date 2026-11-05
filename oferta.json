@@ -1,7 +1,7 @@
 {
   "produto": "Coleção Caderneta de Vacina Pet",
   "basico": {
-    "preco": 14.9,
+    "preco": 17.9,
     "temas": 8,
     "selecao": [
       1,
@@ -16,7 +16,7 @@
     "checkout": "https://pay.wiapy.com/6ae43cd25acbb1d6d4c3db76",
     "conteudo": [
       "8 temas de capa e contracapa rosa e azul, com versões sem nome",
-      "1 miolo neutro de 52 páginas em PDF e PNG"
+      "1 miolo básico de 24 páginas em PDF e PNG"
     ],
     "nao_inclui": [
       "Carteira de vacinação",
@@ -24,7 +24,8 @@
       "Mascotes separados",
       "Mockups"
     ],
-    "inclui_premium": false
+    "inclui_premium": false,
+    "miolo_paginas": 24
   },
   "completo": {
     "preco": 29.9,
@@ -84,16 +85,17 @@
         "DXF de corte"
       ],
       "estilo": "Neutro de cor, sem personagens animais; patinhas, laços e símbolos de cuidados"
-    }
+    },
+    "preco_referencia": 49.9
   },
   "produto_digital": true,
   "completo_oferta": {
     "preco": 19.9,
     "temas": 100,
     "checkout": "https://pay.wiapy.com/pnzd5vR4Mg1",
-    "gatilho": "clique no Básico de R$14,90",
+    "gatilho": "clique no Básico de R$17,90",
     "total": true,
-    "diferenca_para_basico": 5,
+    "diferenca_para_basico": 2,
     "inclui_premium": true,
     "total_modelos": 100
   },
@@ -101,5 +103,13 @@
     "nome_do_pet": true,
     "foto": false,
     "forma": "Artes prontas; inserir apenas o nome"
+  },
+  "promocao": {
+    "startsAt": "2026-11-05T00:00:00-03:00",
+    "endsAt": "2026-11-06T00:00:00-03:00",
+    "timeZone": "America/Sao_Paulo",
+    "day": "05/11",
+    "regularPrice": 49.9,
+    "promoPrice": 29.9
   }
 }
