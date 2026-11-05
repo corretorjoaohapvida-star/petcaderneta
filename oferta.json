@@ -15,8 +15,8 @@
     ],
     "checkout": "https://pay.wiapy.com/6ae43cd25acbb1d6d4c3db76",
     "conteudo": [
-      "8 temas de capa e contracapa nas cores rosa e azul",
-      "Miolo básico em PDF e PNG"
+      "8 temas de capa e contracapa rosa e azul, com versões sem nome",
+      "1 miolo neutro de 52 páginas em PDF e PNG"
     ],
     "nao_inclui": [
       "Carteira de vacinação",
@@ -31,11 +31,12 @@
     "temas": 100,
     "checkout": "https://pay.wiapy.com/6ae43bfb6e359ce02d36cd30",
     "conteudo": [
-      "100 modelos prontos: 51 de cães e 49 de gatos",
-      "48 temas base: capas, miolo de 52 páginas, carteira, caneca, mascote e mockup",
-      "52 modelos adicionais ilustrados com miolos de 24 páginas, bolso e abas",
-      "Capas sem nome e arquivo offline para inserir o nome",
-      "Roteiro de atendimento, mensagens prontas e controle de pedidos"
+      "100 modelos prontos de capa: 51 de cães e 49 de gatos",
+      "10 miolos selecionados de 52 páginas: 6 temas de cães e 4 neutros",
+      "7 carteiras selecionadas rosa e azul",
+      "Canecas, mascotes e mockups dos 48 temas base",
+      "Capas Premium dos 52 adicionais + bolso e divisórias gerais em rosa e azul",
+      "Bônus de atendimento, mensagens e controle de pedidos"
     ],
     "extras_originais_lina": {
       "arquivo": "BRINDE-CADERNETA-PET-ORIGINAL-LINA.zip",
@@ -58,13 +59,32 @@
     "oferta_principal": true,
     "arquivo_entrega": "COLECAO-100-CADERNETAS-PET.zip",
     "arte_pronta": true,
-    "personalizacao": "Somente o nome; ilustrações prontas",
+    "personalizacao": "Inserir o nome nas capas sem nome em seu editor; sem aplicativo",
     "bonus": [
       "Kits Premium",
       "Peças combinando nos 48 temas base",
       "Arquivo para colocar o nome",
       "Roteiro de atendimento + mensagens + controle CSV"
-    ]
+    ],
+    "miolos_selecionados": 10,
+    "miolo_paginas": 52,
+    "carteiras_selecionadas": 7,
+    "bolso_divisorias_gerais": {
+      "cores": [
+        "rosa",
+        "azul"
+      ],
+      "bolsos": 2,
+      "divisorias_por_cor": 5,
+      "pagina_base": true,
+      "formatos": [
+        "PDF A4",
+        "PNG 300dpi",
+        "SVG de corte",
+        "DXF de corte"
+      ],
+      "estilo": "Neutro de cor, sem personagens animais; patinhas, laços e símbolos de cuidados"
+    }
   },
   "produto_digital": true,
   "completo_oferta": {

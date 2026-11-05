@@ -1,22 +1,9 @@
-PÁGINA CADERNETA PET — 100 MODELOS PRONTOS
+PÁGINA PET — SELEÇÃO DE MIOLOS E CARTEIRAS
+Completo:100 modelos de capa +10 miolos selecionados de52páginas (6cães e4neutros) +7carteiras rosa/azul. Canecas, mascotes e mockups dos48temas base; bolso e5divisórias gerais emrosa eazul. Bônus dosvídeos usam agora miolos de52páginas.
+Básico:8temas de capa +1miolo neutro de52páginas.
+Artes base de miolo/carteira vêm dosarquivos daLina enviados pelo usuário; aberturas e carteiras adaptadas aoscães selecionados. Fichas repetidas de registro, sem prescrição de doses.
+Preços e checkouts preservados:14,90/29,90/19,90; oferta19,90 recebe o mesmo Completo.
+ZIPs para cliente em D:/cadernetas/ENTREGAVEIS-POR-PLANO. Não publicar arquivos de entrega no repositório da página.
+Prévias das páginas são osarquivos efetivos. Fotos de montagem são mockups gerados, não fotos de clientes. Não houve impressão física, publicação ou alteração daWiapy nesta rodada.
 
-OFERTA ATUAL
-Básico: 8 temas com capa, contracapa e miolo básico, por R$14,90.
-Completo: 100 modelos ilustrados prontos — 51 de cães e 49 de gatos — por R$29,90.
-São 48 modelos da base + 52 adicionais. Os miolos têm 52 páginas na base e 24 nos adicionais, com fichas repetidas.
-As artes estão prontas. A cliente pode colocar somente o nome; não é uma oferta de personalização por foto.
-Completo é o primeiro plano apresentado. O clique no Básico abre a oferta do mesmo Completo por R$19,90 no total. Recusar segue ao Básico. Fechar o popup não compra nem abre checkout.
-
-ENTREGA
-Pacote consolidado: D:/cadernetas/ENTREGA-100-CADERNETAS-PET/COLECAO-100-CADERNETAS-PET.zip
-Pasta de trabalho: outputs/COLECAO-100-CADERNETAS-PET.
-Inclui 100 pastas de modelos, catálogo, arquivo offline para inserir o nome, atendimento, 2 kits dos vídeos e complementos da coleção. Os extras não aumentam a contagem de 100.
-Associar esse ZIP ao Completo e à oferta de R$19,90. Não entregar esse pacote ao Básico.
-A entrega e os preços na Wiapy não foram alterados remotamente. Os links fornecidos pelo usuário foram preservados em assets/config.js.
-
-PÁGINA E MEDIÇÃO
-Página local pronta para hospedar. Não houve publicação nesta rodada.
-Pixel 1108471864894101: PageView e InitiateCheckout nos três destinos com BRL 14.9 / 29.9 / 19.9. Abrir o popup não dispara IC.
-QA com navegação e eventos interceptados localmente; não houve compra real nem confirmação de recebimento na Meta.
-Comentários dizem respeito à Lina Criativa. Mockups e cenas de peças montadas são imagens geradas, não registros de clientes reais.
-PDFs pagos ficam fora da pasta pública da página.
+Rastreamento atualizado em 05/11/2026: pixels 1108471864894101 (mantido) e 1403007228574878 (adicional) inicializados no mesmo carregador. PageView e InitiateCheckout mantidos. Validacao local com chamadas simuladas; recebimento na Meta e versao publicada nao verificados.
