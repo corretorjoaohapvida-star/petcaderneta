@@ -1,0 +1,105 @@
+/* Revisão localizada da abertura e da mostra do miolo — Lina Criativa. */
+.pet-hero .pet-hero-benefits{gap:9px;margin-top:20px}
+.pet-hero .pet-hero-benefits li{min-height:88px;padding:12px 9px;line-height:1.45}
+.pet-hero .pet-hero-benefits .min-w-0{max-width:106px}
+.pet-hero .pet-hero-cover{border:1px solid #f0dce5;background:#fff!important;padding:6px;aspect-ratio:4/5;box-shadow:0 7px 20px #743b4b12}
+.pet-hero .pet-hero-cover img{background:white!important;border-radius:15px}
+.pet-hero-offer-note{margin:12px auto 0;font-size:13px;line-height:1.5;color:#765563}
+.pet-hero-offer-note strong{color:#9e4166;white-space:nowrap}
+.pet-hero .btn-rose{background:#ce6d91;color:#fff;box-shadow:0 8px 18px #bd5b7b24}
+.pet-hero .btn-rose:hover{background:#bc5e83}
+.pet-miolo-preview{margin:30px 0 8px;padding:23px 18px 17px;background:#fffaf9;border:1px solid #f0d9e3;border-radius:26px;box-shadow:0 10px 25px #6b344311;overflow:hidden}
+.pet-miolo-heading{text-align:center;margin:0 auto 18px}
+.pet-miolo-heading .pet-section-kicker{font-size:10px;margin:0 0 8px;letter-spacing:.15em}
+.pet-miolo-heading h2{font:700 26px/1.25 'Playfair Display',Georgia,serif;color:#4b303c;margin:0}
+.pet-miolo-heading>p:last-child{font-size:12px;line-height:1.6;color:#856673;max-width:320px;margin:10px auto 0}
+.pet-miolo-viewer{border:1px solid #f0dfe7;border-radius:17px;background:white;overflow:hidden}
+.pet-miolo-scroll{display:flex;gap:14px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;max-width:100%;-webkit-overflow-scrolling:touch}
+.pet-miolo-scroll::-webkit-scrollbar{display:none}
+.pet-miolo-scroll:focus-visible{outline:3px solid #a64d73;outline-offset:-3px}
+.pet-miolo-slide{flex:0 0 100%;min-width:0;scroll-snap-align:start;scroll-snap-stop:always;margin:0;padding:12px 10px 0;background:white}
+.pet-miolo-slide img{display:block;width:100%;height:440px;object-fit:contain!important;background:#fff!important;cursor:zoom-in;border-radius:9px}
+.pet-miolo-slide figcaption{display:flex;align-items:center;justify-content:center;gap:9px;font-size:12px;font-weight:500;line-height:1.5;color:#745160;padding:12px 0}
+.pet-miolo-slide figcaption span{font-size:10px;color:#9b6a80;background:#f9eaf0;border-radius:7px;padding:3px 7px}
+.pet-miolo-controls{display:flex;align-items:center;justify-content:center;gap:24px;margin:15px auto 0}
+.pet-miolo-controls button{display:grid;place-items:center;width:44px;height:44px;border:1px solid #e9c2d3;border-radius:50%;background:white;color:#945171;font:400 29px/1 Arial,sans-serif;cursor:pointer}
+.pet-miolo-controls button:hover:not(:disabled){background:#f9eaf0}
+.pet-miolo-controls button:disabled{opacity:.3;cursor:default}
+.pet-miolo-controls p{margin:0;font-size:12px;color:#866775;min-width:44px;text-align:center;font-variant-numeric:tabular-nums}
+.pet-miolo-controls [data-miolo-current]{color:#643b50;font-weight:700}
+.pet-miolo-hint{text-align:center;font-size:10px;line-height:1.5;color:#947b86;margin:11px auto 0}
+@media(max-width:640px){
+ .pet-hero .marquee-track>li{width:164px!important}
+ .pet-hero .marquee-track .pet-hero-cover{aspect-ratio:4/5}
+ .pet-hero>.max-w-xl>#miolo-por-dentro{order:5}
+ .pet-hero>.max-w-xl>.mt-7{margin-top:18px}
+ .pet-hero .pet-hero-benefits li{min-height:84px;font-size:11px}
+ .pet-miolo-preview{margin-top:26px;padding:21px 12px 15px;border-radius:22px}
+ .pet-miolo-heading h2{font-size:24px}
+ .pet-miolo-slide{padding:9px 8px 0}
+ .pet-miolo-slide img{height:385px}
+ .pet-miolo-heading>p:last-child{font-size:12px;max-width:270px}
+ .pet-miolo-slide figcaption{font-size:11px}
+ .pet-hero-offer-note{font-size:12px;max-width:300px}
+}
+@media(prefers-reduced-motion:reduce){.pet-miolo-scroll{scroll-behavior:auto}}
+
+/* Condição promocional e capas sem moldura adicional. */
+.pet-hero .pet-hero-cover{border:0!important;padding:0!important;background:transparent!important;box-shadow:none!important;border-radius:0!important}
+.pet-hero .pet-hero-cover img{background:transparent!important;border-radius:0!important}
+.pet-promo-banner strong{display:inline-block;padding:3px 8px;margin-left:3px;border-radius:6px;background:#a3466a;color:#fff;font-weight:800}
+.pet-promo-countdown{text-align:center;border:1px solid #e9b4c8;background:#ffedf3;border-radius:20px;padding:18px 12px;margin:0 auto 24px;max-width:410px}
+.pet-promo-label{font-size:12px;letter-spacing:.12em;font-weight:800;color:#9e4166;margin:0 0 12px}
+.pet-promo-clock{display:flex;align-items:center;justify-content:center;gap:11px;color:#5b3044;font-variant-numeric:tabular-nums}
+.pet-promo-clock>span{display:flex;flex-direction:column;width:67px;padding:10px 5px 8px;background:#fff9fb;border:1px solid #edc9d7;border-radius:10px}
+.pet-promo-clock b{font-size:30px;line-height:1.15;font-weight:800}
+.pet-promo-clock small{font-size:8px;letter-spacing:.09em;margin-top:5px}
+.pet-promo-clock i{font-size:25px;font-weight:700;font-style:normal;margin-top:-15px}
+.pet-promo-deadline{font-size:11px;color:#795562;margin:12px 0 0;line-height:1.5}
+.pet-price-was{margin:16px 0 0;font-size:19px;color:#947580}
+.pet-price-was s{text-decoration-color:#bd517c;text-decoration-thickness:2px}
+.pet-promo-price small{display:block;font:700 11px/1.5 Arial,sans-serif;letter-spacing:.13em;color:#9e4166;margin-bottom:5px}
+.pet-promo-price strong{font:inherit;color:#853652}
+.pet-promo-saving{display:inline-block;margin:12px 0 0;padding:7px 13px;border-radius:20px;background:#f9e5ee;color:#9e4166;font-size:12px;font-weight:700}
+.pet-promo-ended{opacity:.8}
+@media(max-width:640px){.pet-miolo-heading h2{font-size:22px}}
+
+.pet-motivo-section{padding-top:30px;padding-bottom:30px}
+.pet-motivo-section>.max-w-xl{padding:25px 22px;background:#fcebf1;border:1px solid #efd2df;border-radius:26px}
+.pet-motivo-kicker{margin:0 0 12px;text-align:center;font-size:10px;letter-spacing:.13em;font-weight:700;color:#a64e72}
+.pet-motivo-section h2{margin:0;text-align:center;font:700 27px/1.3 'Playfair Display',Georgia,serif;color:#4b303c}
+.pet-motivo-hook{margin:18px 0 0;text-align:center;font-size:15px;line-height:1.7;color:#673a4e}
+.pet-motivo-hook strong{color:#a3466a}
+.pet-motivo-lead{margin:12px auto 0;text-align:center;max-width:440px;font-size:13px;line-height:1.75;color:#80616d}
+.pet-motivo-benefits{list-style:none;padding:0;margin:22px 0;display:grid;gap:16px}
+.pet-motivo-benefits li{display:flex;gap:12px;align-items:flex-start}
+.pet-motivo-benefits li>span{font-size:21px;line-height:1.5;flex-shrink:0}
+.pet-motivo-benefits h3{font-size:13px;font-weight:700;line-height:1.5;margin:0;color:#64384c}
+.pet-motivo-benefits p{font-size:12px;line-height:1.65;margin:3px 0 0;color:#80616d}
+.pet-motivo-close{margin:0 0 18px;text-align:center;font-size:13px;font-weight:600;line-height:1.65;color:#704256}
+.pet-motivo-section .btn-rose{padding:17px 12px;background:#ce6d91;color:white;font-size:12px;line-height:1.5}
+.pet-motivo-source{font-size:9px;line-height:1.6;text-align:center;margin:13px 0 0;color:#937583}
+.pet-motivo-source a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:420px){.pet-motivo-section>.max-w-xl{padding:24px 17px}.pet-motivo-section h2{font-size:24px}.pet-motivo-hook{font-size:14px}}
+
+.pet-piece-showcase{padding-top:28px;padding-bottom:28px}
+.pet-piece-kicker{font-size:10px;letter-spacing:.12em;color:#a64e72;text-align:center;margin:0 0 12px;font-weight:700}
+.pet-piece-showcase h2{text-align:center;font:700 27px/1.3 'Playfair Display',Georgia,serif;color:#4b303c;margin:0}
+.pet-piece-intro{font-size:12px;line-height:1.7;text-align:center;color:#80616d;margin:12px auto 20px;max-width:310px}
+.pet-piece-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:0 0 14px}
+.pet-piece-tabs button{min-height:44px;padding:10px 4px;border:1px solid #ebc8d7;border-radius:11px;background:transparent;color:#8a5b70;font-size:11px;font-weight:600;cursor:pointer}
+.pet-piece-tabs button[aria-selected=true]{background:#a64e72;border-color:#a64e72;color:white}
+.pet-piece-tabs button:focus-visible{outline:2px solid #67354c;outline-offset:3px}
+.pet-piece-panels [hidden]{display:none!important}
+.pet-piece-panels figure{margin:0}
+.pet-piece-stage{width:100%;height:390px;display:flex;align-items:center;justify-content:center;background:#f6edf1;overflow:hidden;border-radius:16px}
+.pet-piece-stage img{display:block;width:100%;height:100%;object-fit:contain!important;cursor:zoom-in}
+.pet-piece-stage-caneca img{object-fit:cover!important}
+.pet-piece-panels figcaption{padding:16px 4px 0;text-align:center;min-height:99px}
+.pet-piece-panels h3{margin:0;font-size:14px;line-height:1.6;font-weight:700;color:#673a4e}
+.pet-piece-panels figcaption p{font-size:12px;line-height:1.7;color:#80616d;margin:6px 0 0}
+.pet-piece-disclosure{font-size:10px;line-height:1.7;text-align:center;color:#947785;margin:13px auto 0;max-width:430px}
+.pet-piece-showcase .btn-rose{background:#ce6d91;color:white}
+.pet-piece-showcase .btn-quiet{margin-top:17px}
+.pet-piece-showcase [data-approved-pack-cta]{margin-top:12px}
+@media(max-width:420px){.pet-piece-showcase h2{font-size:25px}.pet-piece-stage{height:350px}.pet-motivo-section h2{font-size:23px}}

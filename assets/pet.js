@@ -5,7 +5,7 @@ const upgradeDialog=document.getElementById('pet-upgrade-modal');let upgradeRetu
 function checkoutUrl(key){const url=window.PET_CHECKOUTS?.[key];return typeof url==='string'&&/^https:\/\//i.test(url)?url:null;}
 let checkoutNavigationPending=false;
 function trackPetCheckout(key){
- const value={basico:14.90,completo:29.90,completo_oferta:19.90}[key];
+ const value={basico:17.90,completo:29.90,completo_oferta:19.90}[key];
  if(typeof window.fbq==='function'&&value){try{window.fbq('track','InitiateCheckout',{value,currency:'BRL',content_name:key==='basico'?'Pack Básico Pet - 8 temas':'Completo Pet - 100 modelos prontos',content_ids:[key],content_type:'product',num_items:1});}catch(e){/* Tracking must not block checkout. */}}
 }
 function goToCheckout(key){const url=checkoutUrl(key);if(upgradeDialog?.open)upgradeDialog.close();if(url){if(checkoutNavigationPending)return;checkoutNavigationPending=true;trackPetCheckout(key);setTimeout(()=>window.location.assign(url),180);}else plans.scrollIntoView({behavior:'smooth',block:'start'});}
